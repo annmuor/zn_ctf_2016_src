@@ -1,0 +1,35 @@
+#4v: eggdrop v1.8.0+RC1 -- QuizBot -- written Sun Oct  9 22:00:00 2016
+master     - hjlmnoptx               
+--HOSTS -telnet!*@*
+--LASTON 1476032996 partyline
+--PASS +PzPD11dB6HL/
+--XTRA created 1476030020
+operator   - glv                     
+! #superquiz           1476033053 lo         
+--HOSTS *!*kreon@localhost
+--PASS +w6JdR/S0mBF/
+--LASTON 1476033053 #superquiz
+--XTRA created 1476030056
+443.v01d.l0v3z.u - -                       
+--PASS +Pqzy5/mcZ101
+--XTRA created 1476030080
+guest      - dkqr                    
+--PASS +HsgJZ0104sF.
+--XTRA created 1476030050
+root       - gv                      
+! #superquiz           0 v          
+--PASS +9F93o1OxwgK1
+--XTRA created 1476030040
+toor       - gv                      
+! #superquiz           0 k          
+--PASS +V6ZOx0rVGWT0
+--XTRA created 1476030102
+::#netquiz bans
+::#superquiz bans
+::#help bans
+&&#netquiz exempts
+&&#superquiz exempts
+&&#help exempts
+$$#netquiz invites
+$$#superquiz invites
+$$#help invites
