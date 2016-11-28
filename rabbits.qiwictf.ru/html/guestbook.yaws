@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title>Guestbook</title>
+</head>
+<body bgcolor="#ffa07a">
+<center>
+    <h1>My Cool Guestbook</h1>
+    <font color="red" size="+10">%%error%%</font><BR/>
+    <a href="?s=%%prev%%">&lt;&lt;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+        href="?s=%%next%%">&gt;&gt;</a>
+    <form action="/cgi-bin/guestbook.pl" method="POST">
+        <table style="border: 2px dotted blue">
+            <tr>
+                <th align="left">Nickname</th>
+                <td align="left"><input type="text" name="name" size="15"></td>
+            </tr>
+            <tr>
+                <th align="left">Email</th>
+                <td align="left"><input type="text" name="email" size="15"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <textarea name="message" cols="40" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <th align="left">%%formula%% =</th>
+                <td><input type="text" name="captcha" size="5" value="?">&nbsp;<input type="submit" name="s"
+                                                                                      value="Post"></td>
+            </tr>
+        </table>
+    </form>
+    <table border="1" width="80%">
+        %%messages%%
+    </table>
+    <a href="?s=%%prev%%">&lt;&lt;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+        href="?s=%%next%%">&gt;&gt;</a>
+</center>
+</body>
+</html>

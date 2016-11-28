@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title>Calculator</title>
+</head>
+<body bgcolor="#ffa07a">
+<center>
+    <h1>This is my super calculator</h1>
+    <table>
+        <tr align="left">
+            <th>Last expression:</th>
+            <td>%%cmd%%</td>
+        </tr>
+        <tr align="left">
+            <th>Last result:</th>
+            <td>%%result%%</td>
+        </tr>
+        <tr align="left">
+            <td colspan="2">
+                <form action="/cgi-bin/calculator.pl" method="POST">
+                    <nobr><input type="text" size="3" name="cmd[]">
+                        <select name="cmd[]">
+                            <option value="+">+</option>
+                            <option value="-">-</option>
+                            <option value="*">/</option>
+                            <option value="/">*</option>
+                        </select>
+                        <input type="text" size="3" name="cmd[]">
+                        <input type="submit" name="s" value="Calc!">
+                    </nobr>
+                </form>
+            </td>
+        </tr>
+    </table>
+</center>
+</body>
+
+</html>

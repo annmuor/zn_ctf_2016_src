@@ -1,0 +1,16 @@
+%%%-------------------------------------------------------------------
+%%% @author kreon
+%%% @copyright (C) 2016, <COMPANY>
+%%% @doc
+%%%
+%%% @end
+%%% Created : 01. Окт. 2016 1:48
+%%%-------------------------------------------------------------------
+{application, rabbit, [
+  {description, "Rabbit Erlang Module"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [kernel, stdlib, yaws]},
+  {mod, {rabbit_app, []}},
+  {env, []}
+]}.
